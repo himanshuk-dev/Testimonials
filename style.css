@@ -10,6 +10,8 @@ Fonts
 Color Pallette
 ===============
 -Middle Green Yellow: #B1CC74
+-Cultured: #F5F5F5
+-Buff: #FCE694
 */
 
 /*
@@ -67,14 +69,16 @@ main {
 }
 /*
 =============== 
-Section 1
+Profile
 ===============
 */
 
 img {
   position: relative;
-  width: 150px;
-  height: 150px;
+  background-color: #FCE694;
+  object-fit:cover;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   margin: 0 auto;
   margin-bottom: 1rem;
@@ -97,7 +101,32 @@ img {
 }
 
 .container {
-  background: var(--clr-white);
+  background: #F5F5F5;
   padding: 1.5rem 2rem;
+  margin: 1em;
   text-align: center;
 }
+
+/* Button styling */
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  .button {
+      /* background-color: #b1cc74; */
+      width: auto;
+      margin: 10px;
+      padding: 0.5em;
+  }
