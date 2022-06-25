@@ -59,7 +59,7 @@ h4 {
   font-size: 0.875rem;
 }
 p {
-  margin-bottom: 1.25rem; 
+  margin-bottom: 1.25rem;
 }
 
 main {
@@ -75,8 +75,8 @@ Profile
 
 img {
   position: relative;
-  background-color: #FCE694;
-  object-fit:cover;
+  background-color: #fce694;
+  object-fit: cover;
   width: 180px;
   height: 180px;
   border-radius: 50%;
@@ -88,6 +88,7 @@ img {
 .underline {
   height: 0.25rem;
   width: 5rem;
+  margin: 1em;
   background: #b1cc74;
   margin-left: auto;
   margin-right: auto;
@@ -101,7 +102,7 @@ img {
 }
 
 .container {
-  background: #F5F5F5;
+  background: #f5f5f5;
   padding: 1.5rem 2rem;
   margin: 1em;
   text-align: center;
@@ -109,24 +110,34 @@ img {
 
 /* Button styling */
 .arrow {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-  }
-  
-  .right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-  }
-  
-  .left {
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-  }
-  .button {
-      /* background-color: #b1cc74; */
-      width: auto;
-      margin: 10px;
-      padding: 0.5em;
-  }
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.button {
+  /* background-color: #b1cc74; */
+  width: auto;
+  margin: 10px;
+  padding: 0.5em;
+}
+
+.previous,
+.next {
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  transition: var(--transition);
+  cursor: pointer;
+}

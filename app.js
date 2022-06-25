@@ -26,14 +26,14 @@ const reviews = [
     id: 4,
     name: "Helen L. Jackson",
     role: "Financial Advisor",
-    img: "helen.jpg",
+    img: "Images/helen.jpg",
     bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla at volutpat diam ut venenatis tellus in metus. Sed velit dignissim sodales ut. Proin fermentum leo vel orci porta non pulvinar neque laoreet. Sociis natoque penatibus et magnis dis. Ullamcorper sit amet risus nullam. Diam sollicitudin tempor id eu nisl nunc mi ipsum. Porta non pulvinar neque laoreet suspendisse. Phasellus vestibulum lorem sed risus ultricies. Congue mauris rhoncus aenean vel elit scelerisque. Blandit volutpat maecenas volutpat blandit. Mi ipsum faucibus vitae aliquet nec ullamcorper sit.",
   },
 ];
 
 //   Element selection
 const img = document.getElementById("image");
-const name = document.getElementById("name");
+const author = document.getElementById("name");
 const role = document.getElementById("role");
 const bio = document.getElementById("bio");
 
@@ -47,7 +47,7 @@ let currentItem = 0;
 window.addEventListener("DOMContentLoaded", function () {
   const item = reviews[currentItem];
   img.src = item.img;
-  name.textContent = item.name;
+  author.textContent = item.name;
   role.textContent = item.role;
   bio.textContent = item.bio;
 });
@@ -56,7 +56,7 @@ window.addEventListener("DOMContentLoaded", function () {
 function showPerson(person) {
   const item = reviews[person];
   img.src = item.img;
-  name.textContent = item.name;
+  author.textContent = item.name;
   role.textContent = item.role;
   bio.textContent = item.bio;
 }
