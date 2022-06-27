@@ -1,5 +1,7 @@
 # Testimonials
 
+![project testimonials banner](https://user-images.githubusercontent.com/87880250/175851065-ad6970ef-4fac-4860-ab34-83e4491c982d.png)
+
 
 I developed this project to demonstrate my skills for JavaScript
 
@@ -17,7 +19,11 @@ I developed this project to demonstrate my skills for JavaScript
 
 # Demo-preview
 
-typing...
+
+
+https://user-images.githubusercontent.com/87880250/175851078-795a14e9-f0fb-44b3-8302-1cf7e00562b5.mov
+
+
 
 # Table of contents
 
