@@ -40,10 +40,9 @@ To use this project, first clone the repo on your device using the command below
 [(Back to top)](#table-of-contents)
 
 # Development
-- Start by creating index HTML and its styling which will be same for both the ways of color flip.
-- Create JavaScript which picks random color in case of pre-selected color generated and modifies the DOM element to change the background color to the random color picked from array. This is done by using even listener for click even on the button.
-- For hex code generator, create a duplicate of index file and name it as hex.html
-- Javascript involves picking a random number from array which concatenates together to form a hex code. This is then displayed as background color using an eve listener for click event on the button. 
+- Start by creating index HTML and its styling.
+- Create JavaScript which modifies the DOM element to pick an element from array. This is done by using even listener for click even on the button.
+- Javascript involves incrementing the counter and picking corresponding element from array which cotains information like author, job title and bio. This is then displayed using an event listener for click event on the button. 
 
 [(Back to top)](#table-of-contents)
 
